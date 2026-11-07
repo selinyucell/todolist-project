@@ -1,0 +1,57 @@
+body {
+    background-color: #006989;
+    font-family: Montserrat, sans-serif;
+}
+
+.form-control{
+    border:none;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 600px;
+    font-size: 14px;
+}
+
+.araIcon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0px 0px 5px #f9f9f9 !important;
+}
+
+.ekleBtn {
+    background-color: #f5c400;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+}
+
+.ekleBtn:hover {
+    background-color: #ffbb00;
+    color: #ffffff;
+}
+
+.ekleBtn:focus {
+    box-shadow: 0px 0px 5px #f9f9f9 !important;
+}
+
+.ekleBtn:active {
+    color: #fff !important;
+    background-color: #ffcc00 !important;
+    box-shadow: 0px 0px 5px #f9f9f9 !important;
+}
+.gorevInput placeholder {
+    color: #343434ff;
+    font-size: 14px;
+}
+.delete{
+    height: 16px;
+}
